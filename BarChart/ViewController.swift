@@ -6,6 +6,7 @@
 //  Copyright © 2017 Nguyen Vu Nhat Minh. All rights reserved.
 //
 
+import BarChartPkg
 import UIKit
 
 class ViewController: UIViewController {
