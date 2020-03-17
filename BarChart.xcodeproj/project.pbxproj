@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9D3A4270242159C9000F666D /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 9D3A426E242159C9000F666D /* LICENSE */; };
+		9D3A4271242159C9000F666D /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 9D3A426F242159C9000F666D /* README.md */; };
 		D798EC9C229404BF001276C0 /* UIBezierPathExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D798EC9B229404BF001276C0 /* UIBezierPathExtension.swift */; };
 		D798EC9E229404E6001276C0 /* CALayerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D798EC9D229404E6001276C0 /* CALayerExtension.swift */; };
 		D798ECA82295781D001276C0 /* CustomSegments.swift in Sources */ = {isa = PBXBuildFile; fileRef = D798ECA72295781D001276C0 /* CustomSegments.swift */; };
@@ -26,6 +28,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9D3A426E242159C9000F666D /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		9D3A426F242159C9000F666D /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		D798EC982293F5FA001276C0 /* BeautifulBarChartPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeautifulBarChartPresenter.swift; sourceTree = "<group>"; };
 		D798EC9B229404BF001276C0 /* UIBezierPathExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIBezierPathExtension.swift; sourceTree = "<group>"; };
 		D798EC9D229404E6001276C0 /* CALayerExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CALayerExtension.swift; sourceTree = "<group>"; };
@@ -92,6 +96,8 @@
 		D7E538681F483B5D00D14995 = {
 			isa = PBXGroup;
 			children = (
+				9D3A426E242159C9000F666D /* LICENSE */,
+				9D3A426F242159C9000F666D /* README.md */,
 				D7E538731F483B5D00D14995 /* BarChart */,
 				D7E538721F483B5D00D14995 /* Products */,
 			);
@@ -191,6 +197,8 @@
 			files = (
 				D7E5387F1F483B5D00D14995 /* LaunchScreen.storyboard in Resources */,
 				D7E5387C1F483B5D00D14995 /* Assets.xcassets in Resources */,
+				9D3A4271242159C9000F666D /* README.md in Resources */,
+				9D3A4270242159C9000F666D /* LICENSE in Resources */,
 				D7E5387A1F483B5D00D14995 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
