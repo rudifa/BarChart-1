@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "BarChartPkg",
+        "repositoryURL": "https://github.com/rudifa/BarChartPkg.git",
+        "state": {
+          "branch": null,
+          "revision": "f267272fd614c9c6eb1ccb04d6d2a51fed18fda7",
+          "version": "1.0.0"
+        }
+      }
+    ]
+  },
+  "version": 1
+}

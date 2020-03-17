@@ -10,6 +10,7 @@
 		9D3A4270242159C9000F666D /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 9D3A426E242159C9000F666D /* LICENSE */; };
 		9D3A4271242159C9000F666D /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 9D3A426F242159C9000F666D /* README.md */; };
 		9D60311A242161B400E3622A /* BarChartPkg in Frameworks */ = {isa = PBXBuildFile; productRef = 9D603119242161B400E3622A /* BarChartPkg */; };
+		9DE44A7E24217CF90013266C /* BarChartPkg in Frameworks */ = {isa = PBXBuildFile; productRef = 9DE44A7D24217CF90013266C /* BarChartPkg */; };
 		D7E538751F483B5D00D14995 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7E538741F483B5D00D14995 /* AppDelegate.swift */; };
 		D7E538771F483B5D00D14995 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7E538761F483B5D00D14995 /* ViewController.swift */; };
 		D7E5387A1F483B5D00D14995 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7E538781F483B5D00D14995 /* Main.storyboard */; };
@@ -35,6 +36,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9DE44A7E24217CF90013266C /* BarChartPkg in Frameworks */,
 				9D60311A242161B400E3622A /* BarChartPkg in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -108,6 +110,7 @@
 			name = BarChart;
 			packageProductDependencies = (
 				9D603119242161B400E3622A /* BarChartPkg */,
+				9DE44A7D24217CF90013266C /* BarChartPkg */,
 			);
 			productName = BarChart;
 			productReference = D7E538711F483B5D00D14995 /* BarChart.app */;
@@ -139,6 +142,9 @@
 				Base,
 			);
 			mainGroup = D7E538681F483B5D00D14995;
+			packageReferences = (
+				9DE44A7C24217CF90013266C /* XCRemoteSwiftPackageReference "BarChartPkg" */,
+			);
 			productRefGroup = D7E538721F483B5D00D14995 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -366,9 +372,25 @@
 		};
 /* End XCConfigurationList section */
 
+/* Begin XCRemoteSwiftPackageReference section */
+		9DE44A7C24217CF90013266C /* XCRemoteSwiftPackageReference "BarChartPkg" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/rudifa/BarChartPkg.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
 /* Begin XCSwiftPackageProductDependency section */
 		9D603119242161B400E3622A /* BarChartPkg */ = {
 			isa = XCSwiftPackageProductDependency;
+			productName = BarChartPkg;
+		};
+		9DE44A7D24217CF90013266C /* BarChartPkg */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9DE44A7C24217CF90013266C /* XCRemoteSwiftPackageReference "BarChartPkg" */;
 			productName = BarChartPkg;
 		};
 /* End XCSwiftPackageProductDependency section */
