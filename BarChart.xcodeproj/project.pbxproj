@@ -61,7 +61,7 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		D798EC9A22940495001276C0 /* Shared */ = {
+		9D3A427C24215F90000F666D /* Shared */ = {
 			isa = PBXGroup;
 			children = (
 				D7E538881F483BF100D14995 /* DataEntry.swift */,
@@ -70,27 +70,27 @@
 				D798EC9D229404E6001276C0 /* CALayerExtension.swift */,
 				D7C514DD22A404B40016347F /* ArrayExtension.swift */,
 			);
-			name = Shared;
+			path = Shared;
 			sourceTree = "<group>";
 		};
-		D798ECA52295772F001276C0 /* BasicBarChart */ = {
+		9D3A427D24215FB3000F666D /* BasicBarChart */ = {
 			isa = PBXGroup;
 			children = (
 				D7E5388A1F483C4400D14995 /* BasicBarChart.swift */,
 				D798EC9F2294F9C4001276C0 /* BasicBarChartPresenter.swift */,
 				D798ECA322950127001276C0 /* BasicBarEntry.swift */,
 			);
-			name = BasicBarChart;
+			path = BasicBarChart;
 			sourceTree = "<group>";
 		};
-		D798ECA62295774C001276C0 /* BeautifulBarChart */ = {
+		9D3A427F24215FEA000F666D /* BeautifulBarChart */ = {
 			isa = PBXGroup;
 			children = (
 				D7E538861F483BBF00D14995 /* BeautifulBarChart.swift */,
 				D798EC982293F5FA001276C0 /* BeautifulBarChartPresenter.swift */,
 				D798ECA1229500CB001276C0 /* BeautifulBarEntry.swift */,
 			);
-			name = BeautifulBarChart;
+			path = BeautifulBarChart;
 			sourceTree = "<group>";
 		};
 		D7E538681F483B5D00D14995 = {
@@ -128,9 +128,9 @@
 		D7F485331F4AA79300348260 /* BarChart */ = {
 			isa = PBXGroup;
 			children = (
-				D798EC9A22940495001276C0 /* Shared */,
-				D798ECA62295774C001276C0 /* BeautifulBarChart */,
-				D798ECA52295772F001276C0 /* BasicBarChart */,
+				9D3A427C24215F90000F666D /* Shared */,
+				9D3A427F24215FEA000F666D /* BeautifulBarChart */,
+				9D3A427D24215FB3000F666D /* BasicBarChart */,
 			);
 			name = BarChart;
 			sourceTree = "<group>";
