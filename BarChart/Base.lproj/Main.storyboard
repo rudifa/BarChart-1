@@ -1,11 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina6_5" orientation="portrait">
-        <adaptation id="fullscreen"/>
-    </device>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_5" orientation="portrait" appearance="light"/>
     <dependencies>
-        <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -20,35 +17,12 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wS6-br-Re1" customClass="BasicBarChart" customModule="BarChart" customModuleProvider="target">
-                                <rect key="frame" x="0.0" y="44" width="414" height="389"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                            </view>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="uAH-ct-PCd" customClass="BeautifulBarChart" customModule="BarChart" customModuleProvider="target">
-                                <rect key="frame" x="0.0" y="453" width="414" height="389"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                            </view>
-                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <constraints>
-                            <constraint firstItem="uAH-ct-PCd" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="946-rY-uT3"/>
-                            <constraint firstItem="uAH-ct-PCd" firstAttribute="height" secondItem="wS6-br-Re1" secondAttribute="height" id="Dpv-4v-Mqd"/>
-                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="uAH-ct-PCd" secondAttribute="bottom" constant="20" id="I25-AQ-ckq"/>
-                            <constraint firstAttribute="trailing" secondItem="wS6-br-Re1" secondAttribute="trailing" id="ZIO-tZ-Wag"/>
-                            <constraint firstAttribute="trailing" secondItem="uAH-ct-PCd" secondAttribute="trailing" id="c7x-Tl-Ee7"/>
-                            <constraint firstItem="wS6-br-Re1" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="dPn-Ev-eLw"/>
-                            <constraint firstItem="uAH-ct-PCd" firstAttribute="top" secondItem="wS6-br-Re1" secondAttribute="bottom" constant="20" id="mci-bX-2IX"/>
-                            <constraint firstItem="wS6-br-Re1" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="x1G-zW-RBo"/>
-                        </constraints>
                     </view>
-                    <connections>
-                        <outlet property="barChart" destination="uAH-ct-PCd" id="9HY-sn-JGg"/>
-                        <outlet property="basicBarChart" destination="wS6-br-Re1" id="mpL-13-s1o"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="139" y="93"/>
         </scene>
     </scenes>
 </document>
